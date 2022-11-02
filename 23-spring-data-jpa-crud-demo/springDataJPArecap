@@ -1,0 +1,47 @@
+
+
+Ovaj projekat se bootuje preko: 
+
+@SpringBootApplication
+public class CruddemoApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(CruddemoApplication.class, args);
+	}
+
+}
+
+##### SPRING DATA JPA RECAP #####
+
+Za neke osnovne CRUD operacije, Spring Data ima vec predefinisane metode, detaljnije napsiano i implementirano u interfejsu IEmployeeRepository.
+
+Dovoljno je da nas Interfejs namenjen za izvrsavanje CRUD operacija nasledjuje JpaRepository, takodje je bitno napomenuti da JpaRepository provajduje @Transactional tako da ne mora
+da se eksplicitno navede u Serviceu da je metoda @Transactional 
+
+
+Ako projekat koristi Spring Data JPA za neke common slucajeve oslobodjeni smo pisanja DAO koda :)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
